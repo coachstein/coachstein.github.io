@@ -1,6 +1,6 @@
 .grid {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 6fr 1fr;
   grid-template-rows: auto 1fr auto;
   height: 90vh;
 }
@@ -13,5 +13,5 @@ aside,
 article,
 footer {
   border-style: solid;
-  background: silver;
+  padding: 0;
 }
