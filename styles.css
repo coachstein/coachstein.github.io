@@ -1,0 +1,17 @@
+.grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: auto 1fr auto;
+  height: 90vh;
+}
+header,
+footer {
+  grid-column: 1/4;
+}
+header,
+aside,
+article,
+footer {
+  border-style: solid;
+  background: silver;
+}
