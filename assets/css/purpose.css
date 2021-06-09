@@ -16826,7 +16826,7 @@ textarea[resize="horizontal"] {
 
 @media (min-width: 768px) {
   .header-account-page {
-    height: 150px;
+    height: 50px;
   }
 }
 
