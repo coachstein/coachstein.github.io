@@ -15628,7 +15628,7 @@ a.text-muted:hover {
   top: 0;
   background-size: cover;
   border-radius: 0.375rem;
-  /* -webkit-backface-visibility: hidden; */
+  -webkit-backface-visibility: hidden;
   transition: all 0.2s ease;
 }
 @media (prefers-reduced-motion: reduce) {
@@ -15806,7 +15806,7 @@ a.text-muted:hover {
 }
 .card-product .actions .action-item {
   display: inline-block;
-  /* float: left; */
+  float: left;
   width: 40px;
   height: 40px;
   line-height: 40px;
@@ -17384,7 +17384,7 @@ textarea[resize="horizontal"] {
 }
 
 .list-group-space .list-group-item {
-  margin-bottom: 1.5rem;
+  mardin-bottom: 1.5rem;
   border-radius: 0.25rem;
 }
 
@@ -23987,7 +23987,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
   display: block;
   max-width: 100%;
   color: #c0ccda;
-  /* vertical-align: middle; */
+  vertical-align: middle;
   background-color: transparent;
   border: 0 solid transparent;
   border-radius: 0.25rem;
